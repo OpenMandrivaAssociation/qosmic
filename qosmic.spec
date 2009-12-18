@@ -1,5 +1,5 @@
 %define name	qosmic
-%define version	1.4.4
+%define version	1.4.8
 %define release	%mkrel 1
 
 Summary:	Graphical interface for creating flam3 fractal images
@@ -21,10 +21,10 @@ popularity, and Qosmic was developed to provide a Qt interface for
 people interested in creating and contributing sheep.
 
 %prep
-%setup -q -n %{name}
+%setup -q -n %{name}-%{version}
 
 %build
-qmake
+%qmake_qt4
 %make
 
 %install
