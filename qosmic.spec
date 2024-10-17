@@ -9,7 +9,7 @@ Release:	%{release}
 Source0:	%{name}-%{version}.tar.bz2
 License:	GPLv2
 Group:		Graphics
-Url:		http://code.google.com/p/qosmic/
+Url:		https://code.google.com/p/qosmic/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	flam3-devel, lua-devel, libxml2-devel
 BuildRequires:	jpeg-devel, qt4-devel
