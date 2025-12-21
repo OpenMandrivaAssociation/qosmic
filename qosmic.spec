@@ -11,6 +11,7 @@ License:	GPLv2
 Group:		Graphics
 Url:		https://code.google.com/p/qosmic/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires:	flam3-devel, lua-devel, libxml2-devel
 BuildRequires:	jpeg-devel, qt4-devel
 
