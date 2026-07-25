@@ -1,6 +1,6 @@
 %define name	qosmic
 %define version	1.4.8
-%define release	%mkrel 2
+%define release 3
 
 Summary:	Graphical interface for creating flam3 fractal images
 Name:		%{name}
